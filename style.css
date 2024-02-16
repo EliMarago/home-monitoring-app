@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h3
+{
+    font-size: 13px;
+    text-align: center;
+padding: 11px;
+font-weight: 300;
+font-family: "Poppins", sans-serif;
+}
+.bx-user-pin
+{
+    font-size: 30px;
+    position: relative;
+    left: 80px;
+    top: 8px;
+    
+}
+.bx-menu
+{
+    font-size: 30px;
+position: relative;
+top:-48px;
+float: left;
+
+
+}
+.box
+{
+  border-radius: 30px 30px 30px 30px;
+    height: 640px;
+    width: 350px;
+    background: rgb(255,255,255);
+    background: linear-gradient(28deg, rgba(212, 208, 208, 0.186) 37%, rgba(170,238,144,1) 37%);
+}
+body
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+
+}
+.container
+{
+    height: 100vh;
+}
+
+.box-temperature
+{
+    width: 130px;
+    height: 100px;
+    background-color: rgb(252, 253, 255);
+    margin: 10px;
+    border-radius: 20px 20px 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(78, 77, 77, 0.276);
+    float: left;
+    margin-top: 25px;
+    
+    
+
+   
+
+}
+
+.temperature-text
+{
+    font-size: 13px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.bxs-thermometer
+{
+    font-size: 40px;
+    color: rgb(60, 113, 151);
+    margin-left: 9px;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+.temperature
+{
+    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+
+ 
+}
+
+
+.box-temperature-2
+{
+    width: 10px;
+    height: 100px;
+    background-color: rgb(252, 253, 255);
+    margin: 20px;
+    border-radius: 20px 20px 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(78, 77, 77, 0.276);
+    float: left;
+    width: 20%;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+}
+
+.bxs-droplet-half
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 183, 219);
+    font-family: "Poppins", sans-serif;
+}
+.rate
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.humidity
+{
+    text-align: center;
+}
+
+.box-temperature-3{
+    width: 232px;
+    height: 90px;
+    background-color: rgb(252, 253, 255);
+    margin: 38px;
+    border-radius: 20px 20px 20px;
+    padding: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(78, 77, 77, 0.276);
+    float: left;
+position: relative;
+bottom:40px
+}
+
+.outdoor
+{
+    font-size: 15px;
+    text-align: center;
+    margin: -5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bxs-cloud
+{
+    font-size: 60px;
+    color: rgb(95, 95, 95);
+    margin-left: 30px;
+    margin-top: -10px;
+    
+}
+
+.rate-2
+{
+    margin-left: 99px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    float: right;
+    font-family: "Poppins", sans-serif;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    margin-top:8px;
+    margin-left: 30px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 8px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #4bec32;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #73f04a;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }  
+  .slider.round {
+    border-radius: 54px;
+  }
+  
+  .slider.round:before {
+    border-radius: 70%;
+  }
+
+  .card-devices
+  {
+    background-color: #ffffff;
+    width: 120px;
+    height: 110px;
+    border-radius: 20px 20px 20px ;
+    box-shadow: 1px 1px 1px 1px rgba(78, 77, 77, 0.276);
+
+  }
+  .living
+  {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+   top: 10px;
+   font-family: "Poppins", sans-serif;
+  }
+
+  .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+    bottom: -12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+.card-devices
+{
+float: left;
+position: relative;
+right: 9px;
+}
+.card-devices-2
+
+{
+    background-color: #ffffff;
+    margin-left: 130px;
+    margin-top: -90px;
+    width: 120px;
+    height: 110px;
+    border-radius: 20px 20px 20px ;
+    box-shadow: 1px 1px 1px 1px rgba(78, 77, 77, 0.276);
+}
+
+.switch.box-2
+{
+   margin-left: 220px;
+}
+
+.door
+{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+   top: 20px;
+   font-family: "Poppins", sans-serif;
+}
+
+#second
+{
+    margin-top:14px;
+}
+
+.home-icon
+{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    position: relative;
+margin-left: 60px;
+bottom: 5px;
+
+}
+
+.home-icon-2
+{
+    height: 40px;
+    width: 40px;
+position: relative;
+margin-left: 150px;
+bottom: 50px;
+}
